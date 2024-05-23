@@ -1,0 +1,79 @@
+.admin-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.admin-container h1{
+    margin-bottom: 28px;
+}
+
+.btn-register{
+    margin-bottom: 28px;
+}
+
+.list{
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(39, 39, 39, 0.38);
+    border-radius: 4px;
+    margin-bottom: 12px;
+    justify-content: center;
+    padding: 14px 8px;
+}
+
+.list p{
+    margin-bottom: 8px;
+}
+
+.list button{
+    margin-right: 0;
+    border-radius: 4px;
+    border: 0;
+    padding: 4px;
+}
+
+.btn-delete{
+    background-color: green;
+    color: #FFF;
+    margin-left: 5px;
+}
+
+.btn-edit{
+    background-color: #3366FF;
+    color: #FFF;
+}
+
+.btn-logout{
+    position: fixed;
+    bottom: 6%;
+    left: 4%;
+    height: 60px;
+    width: 60px;
+    border: 0;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #3366FF;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+
+.btn-logout:hover{
+    height: 80px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 60px;
+}
+
+.btns-edits{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-edit{
+    margin-bottom: 10px;
+}
