@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { auth } from '../../firebaseConnection';
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify"
 
 export default function Register() {
 
@@ -25,7 +26,7 @@ export default function Register() {
         })
 
     } else {
-      alert('Preencha todos os campos!')
+      toast.warn('Preencha todos os campos!')
     }
   }
 
